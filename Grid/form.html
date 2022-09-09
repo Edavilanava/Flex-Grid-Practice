@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css" type="text/css" />
+    <title>Grid Form</title>
+</head>
+<body>
+    <h1>Grid Form</h1>
+    <form>
+        <div class="container">
+            <div class="names">
+            <label for="fname">1. Name: </label> 
+            <input type="text" id="fname" placeholder="First Name Here" required/>
+            <div class="number">           
+            <label for="lname">2. Last Name:</label>
+            <input type="text" id="lname" placeholder="Last Name Here" required/>
+            </div>
+            </div>
+            <div class="select">
+            3. Select your tech track
+            <input type="checkbox" id="coding" />
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="business" />
+            <label for="business">Business Analytics</label>
+            <input type="checkbox" id="cyber" />
+            <label for="cyber">Cyber Security</label>
+            </div>
+            <div class="email">
+            <label for="email">4. Email Address</label>
+            <input type="email" id="email" placeholder="Email Address Here"
+            required/>
+            </div>
+            <div class="comments">
+            <label for="comment">5. Comments</label>
+            <input type="text" id="comment" placeholder="Any concerns?"/>
+            </div>
+            <div class="dates">
+            <label for="date">6. Today's Date</label>
+            <input type="date" id="date" placeholder="Pick today's date" />
+            </div>
+            </div>
+    </form>
+</body>
+</html>

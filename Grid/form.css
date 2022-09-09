@@ -1,0 +1,24 @@
+/*.container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.names {
+    grid-column-start: 1;
+}
+
+.number {
+    grid-row-start: 1;
+}*/
+
+.container {
+display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.container {
+    grid-column-start: 1;
+    grid-column-end: span 5;
+}
